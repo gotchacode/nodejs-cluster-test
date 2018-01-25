@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-// hello world, the web server
+// HelloServer :hello world, the web server
 func HelloServer(w http.ResponseWriter, req *http.Request) {
 	t := time.Now()
 	fmt.Println(t.String())
