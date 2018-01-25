@@ -17,3 +17,18 @@ ab -n 10000 -c 100  http://127.0.0.1:8000/
 node multicore.js
 ab -n 10000 -c 100  http://127.0.0.1:8000/
 ```
+
+
+### Benchmark Go
+
+```
+go run main.go
+ab -n 10000 -c 100  http://127.0.0.1:8000/
+```
+
+### Benchamark aiohttp Python3
+
+```
+python server.py
+ab -n 10000 -c 100  http://127.0.0.1:8000/
+```
