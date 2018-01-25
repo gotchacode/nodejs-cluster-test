@@ -4,13 +4,10 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"time"
 )
 
 // HelloServer :hello world, the web server
 func HelloServer(w http.ResponseWriter, req *http.Request) {
-	t := time.Now()
-	fmt.Println(t.String())
 	fmt.Println("hello, world!")
 }
 
